@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700;1,800&display=swap');
+
+:root{
+    --primary-color:  #F74B06;
+    --dark-color:gray;
+    --off-white: #F3F4F6;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    /* color: blueviolet; */
+}
+
+h2{
+    font-style: italic;
+    color: black;
+}
+
+.container{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.center-container{
+    max-width: 600px;
+    margin: auto;
+}
+
+.links{
+    text-decoration: none;
+    padding: .25rem .5rem;
+    color: var(--primary-color)
+}
+
+.primary-link{
+    color:white;
+    border-radius: .25rem;
+    padding: .25rem .5rem;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    margin-right: .5rem;
+}
+
+.secondary-link{
+    color: var(--primary-color);
+    border: .05rem solid var(--primary-color);
+    border-radius: 0.5rem;
+    margin-left: .5rem;
+}
+
+hr{
+    margin: 1rem 0.5rem;
+}
+
+.unordered-lists{
+    list-style: none;
+}
+
+.inline{
+    display: inline-block;
+    margin: 0px;
+
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: .1rem 1rem;
+    border-bottom-left-radius: 1rem;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: var(--dark-color);
+    z-index: 1;
+    display: flex;
+}
+
+.navigation .brand{
+    font-weight: bold;
+    font-size: 2rem;
+    padding: .5rem;
+    vertical-align: middle;
+    flex: .95;
+}
+
+.navigation .links{
+    color: white;
+}
+
+.navigation .active{
+    font-weight: bold;
+
+}
+
+.padded-lists{
+    padding: .5rem ;
+}
+
+.rightaligned{
+    float: right;
+}
+.header{
+padding: 1rem .5rem;
+}
+
+.header-image{
+    margin: auto;
+    display: block;
+    max-width: 400px;
+}
+
+.header-heading{
+    color: var(--dark-color);
+    padding: 1.5rem;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;    
+}
+
+.section{
+    padding: 1rem 1rem;
+}
+.section h1{
+    text-align: center;
+    /* margin: auto; */
+}
+.offwhite{
+    background-color: var(--off-white);
+}
+
+.footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: .2rem 1rem;
+    margin-bottom: .2rem;
+    margin-top: 1rem;
+    border-top-right-radius: .5rem;
+}
