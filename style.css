@@ -8,6 +8,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    font-size: large;
     /* color: blueviolet; */
 }
 
@@ -22,7 +23,7 @@ h2{
 }
 
 .center-container{
-    max-width: 600px;
+    max-width: 700px;
     margin: auto;
 }
 
@@ -119,6 +120,7 @@ padding: 1rem .5rem;
 
 .section{
     padding: 1rem 1rem;
+    margin-bottom: 3rem;
 }
 .section h1{
     text-align: center;
